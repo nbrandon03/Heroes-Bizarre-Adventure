@@ -36,48 +36,17 @@ The game allows players to start a new game, select a character class, explore d
 * **JSON**
 * Object-Oriented Programming
 
-## Project Structure
+## Running the Game
 
-```text
-heroes-bizarre-adventure/
-├── src/
-│   ├── Application/
-│   │   ├── Actor/
-│   │   ├── Engine/
-│   │   └── GameScreens/
-│   └── Assets/
-├── pom.xml
-├── settings.json
-└── README.md
-```
+The game is provided as a **JAR executable**.
 
-### Main Components
+To launch the game:
 
-* **Actor** — Player equipment, weapons, effects, and related game objects
-* **Engine** — Game engine and game state management
-* **GameScreens** — Main menu, gameplay locations, shop, pause menu, and other screens
-* **Assets** — Game sprites, images, audio, and other resources
+1. Download the `.jar` file from this repository.
+2. Open the JAR file.
+3. Java will launch the game application.
 
-## Running the Project
-
-### Requirements
-
-* Java 17 or later
-* Maven
-
-### Run
-
-From the project directory:
-
-```bash
-mvn javafx:run
-```
-
-## Development
-
-The project uses Maven to manage dependencies and run the JavaFX application.
-
-The application is organized into separate packages for game actors, engine functionality, and graphical game screens to help keep the project modular and maintainable.
+**Java 17 or later is required.**
 
 ## My Contributions
 
