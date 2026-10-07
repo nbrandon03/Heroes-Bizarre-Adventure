@@ -1,0 +1,26 @@
+stages:
+  - build
+  - package
+
+build-jar:
+  stage: build
+  image: maven:3.9.6-eclipse-temurin-17
+  script:
+    - mvn clean package
+  artifacts:
+    paths:
+      - target/*.jar
+
+zip-package:
+  stage: package
+  image: alpine:latest
+  script:
+    - apk add zip
+    - mkdir dist
+    - cp target/*.jar dist/
+    - cp -r src dist/
+    - cp -r assets dist/ || echo "No assets folder"
+    - zip -r game-package.zip dist
+  artifacts:
+    paths:
+      - game-package.zip
