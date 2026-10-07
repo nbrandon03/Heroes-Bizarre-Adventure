@@ -61,6 +61,7 @@ My work included:
 * Integrating graphical assets into the game interface
 * Working with JavaFX `ImageView` components and animations
 * Contributing to the overall visual presentation and usability of the game
+* Developed the combat system and movement system
 
 ## Project Goals
 
