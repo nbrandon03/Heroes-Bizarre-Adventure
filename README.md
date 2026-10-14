@@ -1,6 +1,6 @@
 # Heroes Bizarre Adventure
 
-A JavaFX desktop game developed in Java as a group software development project. The game features an interactive graphical interface, character selection, combat systems, equipment and weapons, enemies, multiple game screens, and game progression.
+A JavaFX point and click desktop game developed in Java as a group software development project. The game features an interactive graphical interface, character selection, combat systems, equipment and weapons, enemies, multiple game screens, and game progression.
 
 ## Overview
 
